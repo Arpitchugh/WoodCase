@@ -1,36 +1,36 @@
 .heading-primary {
-  color: #fff;
-  text-transform: uppercase;
+	color: #fff;
+	text-transform: uppercase;
 
-  backface-visibility: hidden;
-  margin-bottom: 6rem;
+	backface-visibility: hidden;
+	margin-bottom: 6rem;
 
-  &--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 600;
-    letter-spacing: 3rem;
-    margin-bottom: 2rem;
-    animation: moveInLeft 1s ease-out;
+	&--main {
+		display: block;
+		font-size: 5rem;
+		font-weight: 500;
+		letter-spacing: 3rem;
+		margin-bottom: 2rem;
+		animation: moveInLeft 1s ease-out !important;
 
-    @media screen and (max-height: 850px) {
-      font-size: 8rem;
-    }
-  }
+		@media screen and (max-height: 850px) {
+			font-size: 8rem;
+		}
+	}
 
-  &--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: 0.5rem;
-    animation: moveInRight 1s ease-out;
-  }
-  .heading-tertiary {
-    font-size: 2rem;
-    font-family: "Ubuntu Mono";
+	&--sub {
+		display: block;
+		font-size: 2rem;
+		font-weight: 600;
+		letter-spacing: 0.5rem;
+		animation: moveInRight 1s ease-out;
+	}
+	.heading-tertiary {
+		font-size: 2rem;
+		font-family: 'Ubuntu Mono';
 
-    @media screen and (max-width: 400px) {
-      font-size: 3rem;
-    }
-  }
+		@media screen and (max-width: 400px) {
+			font-size: 3rem;
+		}
+	}
 }
